@@ -3,8 +3,7 @@ name: Crewmeister CI Pipeline
 on:
   push:
     branches:
-      - main
-      - feature/*
+      - sowmya-crewmeister-challenge
 
   pull_request:
     branches:
