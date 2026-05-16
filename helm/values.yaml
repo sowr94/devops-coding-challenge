@@ -1,0 +1,15 @@
+replicaCount: 1
+
+image:
+  repository: devops-coding-challenge-app
+  tag: latest
+
+service:
+  type: LoadBalancer
+  port: 80
+
+mysql:
+  host: mysql
+  database: challenge
+  username: root
+  password: dev
